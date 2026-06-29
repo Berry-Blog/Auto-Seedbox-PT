@@ -1,6 +1,7 @@
 # Auto-Seedbox-PT (ASP)
 
-德国nc9.5-安装auto-seedbox盒子刷流命令
+德国nc9.5-安装auto-seedbox盒子刷流命令：
+--
 LC_ALL=C LANG=C LANGUAGE=C bash <(wget -4 -qO- https://raw.githubusercontent.com/yimouleng/Auto-Seedbox-PT/main/auto_seedbox_pt.sh) \
   -u 用户名 \
   -p '替换密码' \
@@ -10,7 +11,7 @@ LC_ALL=C LANG=C LANGUAGE=C bash <(wget -4 -qO- https://raw.githubusercontent.com
   -f \
   -t \
   -a
-
+--
 
 
 
