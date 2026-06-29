@@ -12,9 +12,12 @@ LC_ALL=C LANG=C LANGUAGE=C bash <(wget -4 -qO- https://raw.githubusercontent.com
   -t \
   -a
 --
-
-
-
+安装bbrv3:
+sudo seedboxctl --lang zh-CN bbr install --bbr-algo bbrv3
+--
+查看当前拥塞控制算法：
+sysctl net.ipv4.tcp_congestion_control
+--
 
 🚀 **PT Seedbox 一键部署 + 场景化调优（qBittorrent / Vertex / FileBrowser）**  
 
